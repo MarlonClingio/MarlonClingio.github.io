@@ -6,11 +6,79 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio Marlon Clingio</title>
+  <!--CSS do Projeto-->
   <link rel="stylesheet" href="css/style.css">
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!--Dev Icon Font-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
 
 <body>
-  <img src="img/Marlon.jpeg" alt="Foto Perfil">
+  <main id="container">
+    <aside id="bio-container">
+      <h2>Marlon Clingio</h2>
+      <img src="img/Marlon.jpeg" alt="Foto perfil Marlon Clingio" id="bio-img">
+      <p>Olá Meu nome é Marlon Clingio, e sou <span class="highlight">Desenvolvedor Web Front-End.</span></p>
+      <p id="welcome-text">Seja Bem-vindo!</p>
+      <ul id="social-container">
+        <li><a href="https://github.com/MarlonClingio" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+        <li><a href="https://www.linkedin.com/in/marlon-clingio-339402250/" target="_blank"><ion-icon
+              name="logo-linkedin"></ion-icon></a></li>
+      </ul>
+      <div id="email-container">
+        <ion-icon name="mail-outline"></ion-icon><a
+          href="mailto:marlonclingio83@gmail.com">marlonclingio83@gmail.com</a>
+      </div>
+    </aside>
+    <section id="about-container">
+      <h1 id="name">Marlon Clingio</h1>
+      <p id="title"><span class="highlight">Desenvolvedor Web Front-End</span></p>
+      <p class="description">
+        Trabalho atualmente como <span class="highlight">Designer Gráfico</span> e <span class="highlight">Arte
+          finalista</span>, possuindo mais de 10 anos de experiência. Graduando
+        em Análise e desenvolvimento de sistemas.
+        Possuo habilidades com <span class="highlight">Web Design</span> e <span class="highlight">Desenvolvimento Web
+          Front-end.</span>
+      </p>
+      <a href="https://github.com/MarlonClingio" id="btn-projects" target="_blank"><ion-icon
+          name="share-social-outline"></ion-icon><span>Ver projetos</span></a>
+      <h2 id="skills-section-title">Minhas Linguagens</h2>
+      <p class="description">Conheça as Tecnologias que domino:</p>
+      <div class="skills-container">
+        <div class="skills-box">
+          <p class="skills-title">Front-End</p>
+          <i class="devicon-html5-plain colored"></i>
+          <i class="devicon-css3-plain colored"></i>
+          <i class="devicon-javascript-plain colored"></i>
+        </div>
+        <div class="skills-box">
+          <p class="skills-title">Frameworks</p>
+          <i class="devicon-vuejs-plain colored"></i>
+          <i class="devicon-angularjs-plain colored"></i>
+          <i class="devicon-react-plain colored"></i>
+        </div>
+        <div class="skills-box">
+          <p class="skills-title">DataBase</p>
+          <i class="devicon-postgresql-plain colored"></i>
+          <i class="devicon-mysql-plain colored"></i>
+          <i class="devicon-mongodb-plain colored"></i>
+        </div>
+        <div class="skills-box">
+          <p class="skills-title">Back-End</p>
+          <i class="devicon-nodejs-plain colored"></i>
+          <i class="devicon-typescript-plain colored"></i>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--Ion Icon-->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
