@@ -131,7 +131,7 @@
 }
 
 .description {
-  max-width: 75%;
+  max-width: 85%;
   margin-bottom: 10px;
 }
 
@@ -175,13 +175,14 @@
 .skills-container {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 25px;
+  gap: 10px;
+  margin-top: 30px;
 }
 
 .skills-box {
   flex: 1 1 33%;
-  max-width: 33%;
-  margin-bottom: 35px;
+  max-width: 100%;
+  margin: 0 30px 30px 0;
 }
 
 .skills-title {
@@ -193,12 +194,13 @@
 }
 
 .skills-box i {
+  display: inline-block;
   font-size: 45px;
-  margin-right: 10px;
+  margin: .3rem;
 }
 
 /* mobile */
-@media(max-width: 500px) {
+@media(max-width: 800px) {
   #container {
     flex-direction: column;
   }
@@ -214,7 +216,7 @@
   }
 
   #bio-container p {
-    max-width: 60%;
+    max-width: 100%;
     margin: 10px auto;
   }
 
