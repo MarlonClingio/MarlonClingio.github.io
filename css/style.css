@@ -199,6 +199,17 @@
   margin: .3rem;
 }
 
+.skills-box i:has(img) {
+  font-size: 0 !important;
+  vertical-align: bottom;
+}
+
+.skills-box #nodejs_img {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+}
+
 /* mobile */
 @media(max-width: 800px) {
   #container {
@@ -244,5 +255,10 @@
 
   .skills-box i {
     font-size: 60px;
+  }
+
+  .skills-box #nodejs_img {
+    width: 60px;
+    height: 60px;
   }
 }
